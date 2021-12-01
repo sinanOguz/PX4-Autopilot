@@ -99,7 +99,7 @@ fi
 if param compare SENS_EN_PX4FLOW 1
 then
 	px4flow start -X
-	sleep 4
+	sleep 3
 fi
 
 # probe for optional external I2C devices
